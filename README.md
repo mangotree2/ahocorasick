@@ -2,6 +2,9 @@
 
 ----
 
+frok from
+
+
 ```
 func prepareData() string {
 	dict := make(map[int]string, 1115)

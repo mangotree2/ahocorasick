@@ -74,6 +74,8 @@ func FromFile(filename string) *AC {
 	if err != nil {
 		panic(err)
 	}
+	defer f.Close()
+
 	r := bufio.NewReader(f)
 	for {
 		l, err := r.ReadBytes('\n')
