@@ -2,7 +2,12 @@
 
 ----
 
-frok from
+
+基于：https://github.com/Vonng/ac  做的修改；
+修改记录：
+1. 修改源码越界bug问题：https://github.com/Vonng/ac/pull/3
+
+过滤部分与源码不同,增加了一些特性；
 
 
 ```
@@ -82,5 +87,3 @@ PASS
 ```
 
 
-基于：https://github.com/Vonng/ac 
-做的修改
